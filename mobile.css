@@ -1,0 +1,58 @@
+@media screen and (max-width: 403px) {
+    nav{
+        padding: 20px;
+    }
+
+    nav ul, nav .right .login, nav .right .register{
+        display: none;
+    }
+
+    nav .left .logo h1{
+        font-size: 1.75rem;
+    }
+
+    
+    nav .right img{
+        display: block;     
+    }
+    
+    header .right{
+        height: 250px;
+        background-image: url(images/image-hero-mobile.png);
+    }
+    header{
+        padding: 20px;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    header .left, header .right{
+        width: 100%;
+    }
+
+    header .left h1{
+        font-size: 2rem;
+    }
+
+    header .left p{
+        font-size: .9rem;
+        line-height: 20px;
+
+    }
+
+    header .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .left .icons{
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    header .left .icons img{
+        max-width: 70px;
+    }
+}
